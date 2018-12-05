@@ -1,0 +1,28 @@
+@import "./../../../../styles/colors.scss";
+
+.tab {
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+
+  &.active {
+    color: white;
+    background-color: $dark-blue;
+  }
+
+  :hover {
+    color: white;
+    background-color: $dark-blue;
+  }
+}
+
+.title {
+  padding: 8px 12px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+

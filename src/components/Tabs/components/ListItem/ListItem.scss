@@ -1,0 +1,51 @@
+@import "./../../../../styles/colors.scss";
+
+.listItem {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  color: $grey;
+  padding: 0 12px 0;
+
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+
+  &:hover {
+    background-color: #ffe500;
+    color: black;
+  }
+  &:hover .link {
+    color: black;
+  }
+
+  &:last-of-type {
+    .link {
+      border: none;
+    }
+  }
+}
+
+.link {
+  display: inline-block;
+  padding: 8px 12px;
+  border-bottom: 1px solid grey;
+  width: 100%;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: grey;
+  text-decoration: none;
+
+  &:hover {
+    color: lightblue;
+  }
+}
+
+.index {
+  display: inline-block;
+  line-height: 37px;
+  margin-right: 10px;
+  min-width: 20px;
+}
